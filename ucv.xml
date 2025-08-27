@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no" ?>
+<Package name="Model" guid="{650E4859-237C-4365-8785-E64900558AB1}">
+	<Table name="t_package">
+		<Row>
+			<Column name="Package_ID" value="5"/>
+			<Column name="Name" value="View"/>
+			<Column name="Parent_ID" value="1"/>
+			<Column name="CreatedDate" value="2025-08-27 14:37:24"/>
+			<Column name="ModifiedDate" value="2025-08-27 14:37:24"/>
+			<Column name="ea_guid" value="{3CAC18BA-3D80-4d25-AFE6-4C3DD84F9CF9}"/>
+			<Column name="IsControlled" value="0"/>
+			<Column name="Version" value="1.0"/>
+			<Column name="Protected" value="0"/>
+			<Column name="UseDTD" value="0"/>
+			<Column name="LogXML" value="0"/>
+			<Column name="PackageFlags" value="isModel=1;VICON=3;"/>
+			<Extension Parent_ID="{650E4859-237C-4365-8785-E64900558AB1}"/>
+		</Row>
+		<Row>
+			<Column name="Package_ID" value="1"/>
+			<Column name="Name" value="Model"/>
+			<Column name="Parent_ID" value="0"/>
+			<Column name="CreatedDate" value="2012-04-17 00:01:01"/>
+			<Column name="ModifiedDate" value="2012-04-17 00:01:01"/>
+			<Column name="ea_guid" value="{650E4859-237C-4365-8785-E64900558AB1}"/>
+			<Column name="IsControlled" value="0"/>
+			<Column name="LastLoadDate" value="2012-04-17 00:01:01"/>
+			<Column name="LastSaveDate" value="2012-04-17 00:01:01"/>
+			<Column name="Version" value="1.0"/>
+			<Column name="Protected" value="0"/>
+			<Column name="UseDTD" value="0"/>
+			<Column name="LogXML" value="0"/>
+			<Extension/>
+		</Row>
+	</Table>
+	<Table name="t_object">
+		<Row>
+			<Column name="Object_ID" value="11"/>
+			<Column name="Object_Type" value="Component"/>
+			<Column name="Diagram_ID" value="0"/>
+			<Column name="Name" value="ApplicationComponent1"/>
+			<Column name="Author" value="DZC68DX"/>
+			<Column name="Version" value="1.0"/>
+			<Column name="Package_ID" value="5"/>
+			<Column name="Stereotype" value="ArchiMate_ApplicationComponent"/>
+			<Column name="NType" value="0"/>
+			<Column name="Complexity" value="1"/>
+			<Column name="Effort" value="0"/>
+			<Column name="Backcolor" value="-1"/>
+			<Column name="BorderStyle" value="0"/>
+			<Column name="BorderWidth" value="1"/>
+			<Column name="Fontcolor" value="-1"/>
+			<Column name="Bordercolor" value="-1"/>
+			<Column name="CreatedDate" value="2025-08-27 14:40:21"/>
+			<Column name="ModifiedDate" value="2025-08-27 14:40:22"/>
+			<Column name="Status" value="Proposed"/>
+			<Column name="Abstract" value="0"/>
+			<Column name="Tagged" value="0"/>
+			<Column name="GenType" value="Java"/>
+			<Column name="Phase" value="1.0"/>
+			<Column name="Scope" value="Public"/>
+			<Column name="Classifier" value="0"/>
+			<Column name="ea_guid" value="{1D70CC09-EE21-4cf3-8737-C89D751E8BC6}"/>
+			<Column name="ParentID" value="0"/>
+			<Column name="IsRoot" value="0"/>
+			<Column name="IsLeaf" value="0"/>
+			<Column name="IsSpec" value="0"/>
+			<Column name="IsActive" value="0"/>
+			<Extension Package_ID="{3CAC18BA-3D80-4d25-AFE6-4C3DD84F9CF9}"/>
+		</Row>
+		<Row>
+			<Column name="Object_ID" value="5"/>
+			<Column name="Object_Type" value="Class"/>
+			<Column name="Diagram_ID" value="0"/>
+			<Column name="Name" value="BusinessActor1"/>
+			<Column name="Author" value="DZC68DX"/>
+			<Column name="Version" value="1.0"/>
+			<Column name="Package_ID" value="5"/>
+			<Column name="Stereotype" value="ArchiMate_BusinessActor"/>
+			<Column name="NType" value="0"/>
+			<Column name="Complexity" value="1"/>
+			<Column name="Effort" value="0"/>
+			<Column name="Backcolor" value="-1"/>
+			<Column name="BorderStyle" value="0"/>
+			<Column name="BorderWidth" value="1"/>
+			<Column name="Fontcolor" value="-1"/>
+			<Column name="Bordercolor" value="-1"/>
+			<Column name="CreatedDate" value="2025-08-27 14:38:00"/>
+			<Column name="ModifiedDate" value="2025-08-27 14:38:00"/>
+			<Column name="Status" value="Proposed"/>
+			<Column name="Abstract" value="0"/>
+			<Column name="Tagged" value="0"/>
+			<Column name="PDATA4" value="0"/>
+			<Column name="GenType" value="Java"/>
+			<Column name="Phase" value="1.0"/>
+			<Column name="Scope" value="Public"/>
+			<Column name="Classifier" value="0"/>
+			<Column name="ea_guid" value="{2A0A7FC3-07EA-4ed4-932A-EDADEE1910E4}"/>
+			<Column name="ParentID" value="0"/>
+			<Column name="IsRoot" value="0"/>
+			<Column name="IsLeaf" value="0"/>
+			<Column name="IsSpec" value="0"/>
+			<Column name="IsActive" value="0"/>
+			<Extension Package_ID="{3CAC18BA-3D80-4d25-AFE6-4C3DD84F9CF9}"/>
+		</Row>
+		<Row>
+			<Column name="Object_ID" value="6"/>
+			<Column name="Object_Type" value="Class"/>
+			<Column name="Diagram_ID" value="0"/>
+			<Column name="Name" value="BusinessRole1"/>
+			<Column name="Author" value="DZC68DX"/>
+			<Column name="Version" value="1.0"/>
+			<Column name="Package_ID" value="5"/>
+			<Column name="Stereotype" value="ArchiMate_BusinessRole"/>
+			<Column name="NType" value="0"/>
+			<Column name="Complexity" value="1"/>
+			<Column name="Effort" value="0"/>
+			<Column name="Backcolor" value="-1"/>
+			<Column name="BorderStyle" value="0"/>
+			<Column name="BorderWidth" value="1"/>
+			<Column name="Fontcolor" value="-1"/>
+			<Column name="Bordercolor" value="-1"/>
+			<Column name="CreatedDate" value="2025-08-27 14:38:04"/>
+			<Column name="ModifiedDate" value="2025-08-27 14:38:05"/>
+			<Column name="Status" value="Proposed"/>
+			<Column name="Abstract" value="0"/>
+			<Column name="Tagged" value="0"/>
+			<Column name="PDATA4" value="0"/>
+			<Column name="GenType" value="Java"/>
+			<Column name="Phase" value="1.0"/>
+			<Column name="Scope" value="Public"/>
+			<Column name="Classifier" value="0"/>
+			<Column name="ea_guid" value="{2B1846E5-104F-46e5-B5DB-CA09E6B33911}"/>
+			<Column name="ParentID" value="0"/>
+			<Column name="IsRoot" value="0"/>
+			<Column name="IsLeaf" value="0"/>
+			<Column name="IsSpec" value="0"/>
+			<Column name="IsActive" value="0"/>
+			<Extension Package_ID="{3CAC18BA-3D80-4d25-AFE6-4C3DD84F9CF9}"/>
+		</Row>
+		<Row>
+			<Column name="Object_ID" value="9"/>
+			<Column name="Object_Type" value="Activity"/>
+			<Column name="Diagram_ID" value="0"/>
+			<Column name="Name" value="BusinessEvent1"/>
+			<Column name="Author" value="DZC68DX"/>
+			<Column name="Version" value="1.0"/>
+			<Column name="Package_ID" value="5"/>
+			<Column name="Stereotype" value="ArchiMate_BusinessEvent"/>
+			<Column name="NType" value="0"/>
+			<Column name="Complexity" value="1"/>
+			<Column name="Effort" value="0"/>
+			<Column name="Backcolor" value="-1"/>
+			<Column name="BorderStyle" value="0"/>
+			<Column name="BorderWidth" value="1"/>
+			<Column name="Fontcolor" value="-1"/>
+			<Column name="Bordercolor" value="-1"/>
+			<Column name="CreatedDate" value="2025-08-27 14:39:04"/>
+			<Column name="ModifiedDate" value="2025-08-27 14:39:05"/>
+			<Column name="Status" value="Proposed"/>
+			<Column name="Abstract" value="0"/>
+			<Column name="Tagged" value="0"/>
+			<Column name="GenType" value="&lt;none&gt;"/>
+			<Column name="Phase" value="1.0"/>
+			<Column name="Scope" value="Public"/>
+			<Column name="Classifier" value="0"/>
+			<Column name="ea_guid" value="{34835314-9249-41e5-863E-737E65A9E566}"/>
+			<Column name="ParentID" value="0"/>
+			<Column name="IsRoot" value="0"/>
+			<Column name="IsLeaf" value="0"/>
+			<Column name="IsSpec" value="0"/>
+			<Column name="IsActive" value="0"/>
+			<Extension Package_ID="{3CAC18BA-3D80-4d25-AFE6-4C3DD84F9CF9}"/>
+		</Row>
+		<Row>
+			<Column name="Object_ID" value="4"/>
+			<Column name="Object_Type" value="Package"/>
+			<Column name="Diagram_ID" value="0"/>
+			<Column name="Name" value="View"/>
+			<Column name="Author" value="DZC68DX"/>
+			<Column name="Version" value="1.0"/>
+			<Column name="Package_ID" value="1"/>
+			<Column name="NType" value="0"/>
+			<Column name="Complexity" value="1"/>
+			<Column name="Effort" value="0"/>
+			<Column name="Backcolor" value="-1"/>
+			<Column name="BorderStyle" value="0"/>
+			<Column name="BorderWidth" value="-1"/>
+			<Column name="Fontcolor" value="-1"/>
+			<Column name="Bordercolor" value="-1"/>
+			<Column name="CreatedDate" value="2025-08-27 14:37:24"/>
+			<Column name="ModifiedDate" value="2025-08-27 14:37:25"/>
+			<Column name="Status" value="Proposed"/>
+			<Column name="Abstract" value="0"/>
+			<Column name="Tagged" value="0"/>
+			<Column name="PDATA1" value="5"/>
+			<Column name="GenType" value="Java"/>
+			<Column name="Phase" value="1.0"/>
+			<Column name="Scope" value="Public"/>
+			<Column name="Classifier" value="0"/>
+			<Column name="ea_guid" value="{3CAC18BA-3D80-4d25-AFE6-4C3DD84F9CF9}"/>
+			<Column name="ParentID" value="0"/>
+			<Column name="IsRoot" value="0"/>
+			<Column name="IsLeaf" value="0"/>
+			<Column name="IsSpec" value="0"/>
+			<Column name="IsActive" value="0"/>
+			<Extension Package_ID="{650E4859-237C-4365-8785-E64900558AB1}" PDATA1="{3CAC18BA-3D80-4d25-AFE6-4C3DD84F9CF9}"/>
+		</Row>
+		<Row>
+			<Column name="Object_ID" value="7"/>
+			<Column name="Object_Type" value="Activity"/>
+			<Column name="Diagram_ID" value="0"/>
+			<Column name="Name" value="BusinessProcess1"/>
+			<Column name="Author" value="DZC68DX"/>
+			<Column name="Version" value="1.0"/>
+			<Column name="Package_ID" value="5"/>
+			<Column name="Stereotype" value="ArchiMate_BusinessProcess"/>
+			<Column name="NType" value="0"/>
+			<Column name="Complexity" value="1"/>
+			<Column name="Effort" value="0"/>
+			<Column name="Backcolor" value="-1"/>
+			<Column name="BorderStyle" value="0"/>
+			<Column name="BorderWidth" value="1"/>
+			<Column name="Fontcolor" value="-1"/>
+			<Column name="Bordercolor" value="-1"/>
+			<Column name="CreatedDate" value="2025-08-27 14:38:10"/>
+			<Column name="ModifiedDate" value="2025-08-27 14:38:10"/>
+			<Column name="Status" value="Proposed"/>
+			<Column name="Abstract" value="0"/>
+			<Column name="Tagged" value="0"/>
+			<Column name="GenType" value="&lt;none&gt;"/>
+			<Column name="Phase" value="1.0"/>
+			<Column name="Scope" value="Public"/>
+			<Column name="Classifier" value="0"/>
+			<Column name="ea_guid" value="{42CA5A9B-DF6F-452c-802F-76AF6B282A92}"/>
+			<Column name="ParentID" value="0"/>
+			<Column name="IsRoot" value="0"/>
+			<Column name="IsLeaf" value="0"/>
+			<Column name="IsSpec" value="0"/>
+			<Column name="IsActive" value="0"/>
+			<Extension Package_ID="{3CAC18BA-3D80-4d25-AFE6-4C3DD84F9CF9}"/>
+		</Row>
+		<Row>
+			<Column name="Object_ID" value="10"/>
+			<Column name="Object_Type" value="Activity"/>
+			<Column name="Diagram_ID" value="0"/>
+			<Column name="Name" value="ApplicationFunction1"/>
+			<Column name="Author" value="DZC68DX"/>
+			<Column name="Version" value="1.0"/>
+			<Column name="Package_ID" value="5"/>
+			<Column name="Stereotype" value="ArchiMate_ApplicationFunction"/>
+			<Column name="NType" value="0"/>
+			<Column name="Complexity" value="1"/>
+			<Column name="Effort" value="0"/>
+			<Column name="Backcolor" value="-1"/>
+			<Column name="BorderStyle" value="0"/>
+			<Column name="BorderWidth" value="1"/>
+			<Column name="Fontcolor" value="-1"/>
+			<Column name="Bordercolor" value="-1"/>
+			<Column name="CreatedDate" value="2025-08-27 14:40:09"/>
+			<Column name="ModifiedDate" value="2025-08-27 14:40:09"/>
+			<Column name="Status" value="Proposed"/>
+			<Column name="Abstract" value="0"/>
+			<Column name="Tagged" value="0"/>
+			<Column name="GenType" value="&lt;none&gt;"/>
+			<Column name="Phase" value="1.0"/>
+			<Column name="Scope" value="Public"/>
+			<Column name="Classifier" value="0"/>
+			<Column name="ea_guid" value="{62F9C3F6-0038-456a-B163-BCC98233B6C5}"/>
+			<Column name="ParentID" value="0"/>
+			<Column name="IsRoot" value="0"/>
+			<Column name="IsLeaf" value="0"/>
+			<Column name="IsSpec" value="0"/>
+			<Column name="IsActive" value="0"/>
+			<Extension Package_ID="{3CAC18BA-3D80-4d25-AFE6-4C3DD84F9CF9}"/>
+		</Row>
+		<Row>
+			<Column name="Object_ID" value="8"/>
+			<Column name="Object_Type" value="Activity"/>
+			<Column name="Diagram_ID" value="0"/>
+			<Column name="Name" value="BusinessProcess2"/>
+			<Column name="Author" value="DZC68DX"/>
+			<Column name="Version" value="1.0"/>
+			<Column name="Package_ID" value="5"/>
+			<Column name="Stereotype" value="ArchiMate_BusinessProcess"/>
+			<Column name="NType" value="0"/>
+			<Column name="Complexity" value="1"/>
+			<Column name="Effort" value="0"/>
+			<Column name="Backcolor" value="-1"/>
+			<Column name="BorderStyle" value="0"/>
+			<Column name="BorderWidth" value="1"/>
+			<Column name="Fontcolor" value="-1"/>
+			<Column name="Bordercolor" value="-1"/>
+			<Column name="CreatedDate" value="2025-08-27 14:38:27"/>
+			<Column name="ModifiedDate" value="2025-08-27 14:38:27"/>
+			<Column name="Status" value="Proposed"/>
+			<Column name="Abstract" value="0"/>
+			<Column name="Tagged" value="0"/>
+			<Column name="GenType" value="&lt;none&gt;"/>
+			<Column name="Phase" value="1.0"/>
+			<Column name="Scope" value="Public"/>
+			<Column name="Classifier" value="0"/>
+			<Column name="ea_guid" value="{70F0B82D-A67A-46d1-8818-07B4FF451C2D}"/>
+			<Column name="ParentID" value="0"/>
+			<Column name="IsRoot" value="0"/>
+			<Column name="IsLeaf" value="0"/>
+			<Column name="IsSpec" value="0"/>
+			<Column name="IsActive" value="0"/>
+			<Extension Package_ID="{3CAC18BA-3D80-4d25-AFE6-4C3DD84F9CF9}"/>
+		</Row>
+	</Table>
+	<Table name="t_connector">
+		<Row>
+			<Column name="Connector_ID" value="1"/>
+			<Column name="Direction" value="Source -&gt; Destination"/>
+			<Column name="Connector_Type" value="ControlFlow"/>
+			<Column name="SourceAccess" value="Public"/>
+			<Column name="DestAccess" value="Public"/>
+			<Column name="SourceContainment" value="Unspecified"/>
+			<Column name="SourceIsAggregate" value="0"/>
+			<Column name="SourceIsOrdered" value="0"/>
+			<Column name="DestContainment" value="Unspecified"/>
+			<Column name="DestIsAggregate" value="0"/>
+			<Column name="DestIsOrdered" value="0"/>
+			<Column name="Start_Object_ID" value="7"/>
+			<Column name="End_Object_ID" value="8"/>
+			<Column name="Btm_Mid_Label" value="&lt;&lt;ArchiMate_Flow&gt;&gt;"/>
+			<Column name="Start_Edge" value="0"/>
+			<Column name="End_Edge" value="0"/>
+			<Column name="PtStartX" value="0"/>
+			<Column name="PtStartY" value="0"/>
+			<Column name="PtEndX" value="0"/>
+			<Column name="PtEndY" value="0"/>
+			<Column name="SeqNo" value="0"/>
+			<Column name="HeadStyle" value="0"/>
+			<Column name="LineStyle" value="0"/>
+			<Column name="RouteStyle" value="3"/>
+			<Column name="IsBold" value="0"/>
+			<Column name="LineColor" value="-1"/>
+			<Column name="Stereotype" value="ArchiMate_Flow"/>
+			<Column name="VirtualInheritance" value="0"/>
+			<Column name="PDATA5" value="SX=0;SY=0;EX=0;EY=0;"/>
+			<Column name="DiagramID" value="0"/>
+			<Column name="ea_guid" value="{25C6B37A-248E-4d6d-B151-9B10F7B438AA}"/>
+			<Column name="SourceIsNavigable" value="0"/>
+			<Column name="DestIsNavigable" value="1"/>
+			<Column name="IsRoot" value="0"/>
+			<Column name="IsLeaf" value="0"/>
+			<Column name="SourceChangeable" value="none"/>
+			<Column name="DestChangeable" value="none"/>
+			<Column name="SourceTS" value="instance"/>
+			<Column name="DestTS" value="instance"/>
+			<Column name="Target2" value="0"/>
+			<Column name="SourceStyle" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+			<Column name="DestStyle" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+			<Extension Start_Object_ID="{42CA5A9B-DF6F-452c-802F-76AF6B282A92}" End_Object_ID="{70F0B82D-A67A-46d1-8818-07B4FF451C2D}"/>
+		</Row>
+		<Row>
+			<Column name="Connector_ID" value="2"/>
+			<Column name="Direction" value="Source -&gt; Destination"/>
+			<Column name="Connector_Type" value="ControlFlow"/>
+			<Column name="SourceAccess" value="Public"/>
+			<Column name="DestAccess" value="Public"/>
+			<Column name="SourceContainment" value="Unspecified"/>
+			<Column name="SourceIsAggregate" value="0"/>
+			<Column name="SourceIsOrdered" value="0"/>
+			<Column name="DestContainment" value="Unspecified"/>
+			<Column name="DestIsAggregate" value="0"/>
+			<Column name="DestIsOrdered" value="0"/>
+			<Column name="Start_Object_ID" value="8"/>
+			<Column name="End_Object_ID" value="9"/>
+			<Column name="Btm_Mid_Label" value="&lt;&lt;ArchiMate_Flow&gt;&gt;"/>
+			<Column name="Start_Edge" value="0"/>
+			<Column name="End_Edge" value="0"/>
+			<Column name="PtStartX" value="0"/>
+			<Column name="PtStartY" value="0"/>
+			<Column name="PtEndX" value="0"/>
+			<Column name="PtEndY" value="0"/>
+			<Column name="SeqNo" value="0"/>
+			<Column name="HeadStyle" value="0"/>
+			<Column name="LineStyle" value="0"/>
+			<Column name="RouteStyle" value="3"/>
+			<Column name="IsBold" value="0"/>
+			<Column name="LineColor" value="-1"/>
+			<Column name="Stereotype" value="ArchiMate_Flow"/>
+			<Column name="VirtualInheritance" value="0"/>
+			<Column name="PDATA5" value="SX=0;SY=0;EX=0;EY=0;"/>
+			<Column name="DiagramID" value="0"/>
+			<Column name="ea_guid" value="{2ACDA241-E5FE-41fc-B54F-CF24F7865BBD}"/>
+			<Column name="SourceIsNavigable" value="0"/>
+			<Column name="DestIsNavigable" value="1"/>
+			<Column name="IsRoot" value="0"/>
+			<Column name="IsLeaf" value="0"/>
+			<Column name="SourceChangeable" value="none"/>
+			<Column name="DestChangeable" value="none"/>
+			<Column name="SourceTS" value="instance"/>
+			<Column name="DestTS" value="instance"/>
+			<Column name="Target2" value="0"/>
+			<Column name="SourceStyle" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+			<Column name="DestStyle" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+			<Extension Start_Object_ID="{70F0B82D-A67A-46d1-8818-07B4FF451C2D}" End_Object_ID="{34835314-9249-41e5-863E-737E65A9E566}"/>
+		</Row>
+		<Row>
+			<Column name="Connector_ID" value="4"/>
+			<Column name="Direction" value="Source -&gt; Destination"/>
+			<Column name="Connector_Type" value="Association"/>
+			<Column name="SourceAccess" value="Public"/>
+			<Column name="DestAccess" value="Public"/>
+			<Column name="SourceContainment" value="Unspecified"/>
+			<Column name="SourceIsAggregate" value="0"/>
+			<Column name="SourceIsOrdered" value="0"/>
+			<Column name="DestContainment" value="Unspecified"/>
+			<Column name="DestIsAggregate" value="0"/>
+			<Column name="DestIsOrdered" value="0"/>
+			<Column name="Start_Object_ID" value="5"/>
+			<Column name="End_Object_ID" value="6"/>
+			<Column name="Btm_Mid_Label" value="&lt;&lt;ArchiMate_Assignment&gt;&gt;"/>
+			<Column name="Start_Edge" value="0"/>
+			<Column name="End_Edge" value="0"/>
+			<Column name="PtStartX" value="0"/>
+			<Column name="PtStartY" value="0"/>
+			<Column name="PtEndX" value="0"/>
+			<Column name="PtEndY" value="0"/>
+			<Column name="SeqNo" value="0"/>
+			<Column name="HeadStyle" value="0"/>
+			<Column name="LineStyle" value="0"/>
+			<Column name="RouteStyle" value="3"/>
+			<Column name="IsBold" value="0"/>
+			<Column name="LineColor" value="-1"/>
+			<Column name="Stereotype" value="ArchiMate_Assignment"/>
+			<Column name="VirtualInheritance" value="0"/>
+			<Column name="PDATA5" value="SX=0;SY=0;EX=0;EY=0;"/>
+			<Column name="DiagramID" value="0"/>
+			<Column name="ea_guid" value="{5899474A-48D7-4ed9-A54D-39B096143046}"/>
+			<Column name="SourceIsNavigable" value="0"/>
+			<Column name="DestIsNavigable" value="0"/>
+			<Column name="IsRoot" value="0"/>
+			<Column name="IsLeaf" value="0"/>
+			<Column name="SourceChangeable" value="none"/>
+			<Column name="DestChangeable" value="none"/>
+			<Column name="SourceTS" value="instance"/>
+			<Column name="DestTS" value="instance"/>
+			<Column name="Target2" value="0"/>
+			<Column name="SourceStyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+			<Column name="DestStyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+			<Extension Start_Object_ID="{2A0A7FC3-07EA-4ed4-932A-EDADEE1910E4}" End_Object_ID="{2B1846E5-104F-46e5-B5DB-CA09E6B33911}"/>
+		</Row>
+		<Row>
+			<Column name="Connector_ID" value="6"/>
+			<Column name="Direction" value="Source -&gt; Destination"/>
+			<Column name="Connector_Type" value="Association"/>
+			<Column name="SourceAccess" value="Public"/>
+			<Column name="DestAccess" value="Public"/>
+			<Column name="SourceContainment" value="Unspecified"/>
+			<Column name="SourceIsAggregate" value="0"/>
+			<Column name="SourceIsOrdered" value="0"/>
+			<Column name="DestContainment" value="Unspecified"/>
+			<Column name="DestIsAggregate" value="0"/>
+			<Column name="DestIsOrdered" value="0"/>
+			<Column name="Start_Object_ID" value="11"/>
+			<Column name="End_Object_ID" value="10"/>
+			<Column name="Btm_Mid_Label" value="&lt;&lt;ArchiMate_Serving&gt;&gt;"/>
+			<Column name="Start_Edge" value="0"/>
+			<Column name="End_Edge" value="0"/>
+			<Column name="PtStartX" value="0"/>
+			<Column name="PtStartY" value="0"/>
+			<Column name="PtEndX" value="0"/>
+			<Column name="PtEndY" value="0"/>
+			<Column name="SeqNo" value="0"/>
+			<Column name="HeadStyle" value="0"/>
+			<Column name="LineStyle" value="0"/>
+			<Column name="RouteStyle" value="3"/>
+			<Column name="IsBold" value="0"/>
+			<Column name="LineColor" value="-1"/>
+			<Column name="Stereotype" value="ArchiMate_Serving"/>
+			<Column name="VirtualInheritance" value="0"/>
+			<Column name="PDATA5" value="SX=0;SY=0;EX=0;EY=0;"/>
+			<Column name="DiagramID" value="0"/>
+			<Column name="ea_guid" value="{5FC36882-6FE7-4e0a-86C0-41A64D358590}"/>
+			<Column name="SourceIsNavigable" value="0"/>
+			<Column name="DestIsNavigable" value="0"/>
+			<Column name="IsRoot" value="0"/>
+			<Column name="IsLeaf" value="0"/>
+			<Column name="SourceChangeable" value="none"/>
+			<Column name="DestChangeable" value="none"/>
+			<Column name="SourceTS" value="instance"/>
+			<Column name="DestTS" value="instance"/>
+			<Column name="Target2" value="0"/>
+			<Column name="SourceStyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+			<Column name="DestStyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+			<Extension Start_Object_ID="{1D70CC09-EE21-4cf3-8737-C89D751E8BC6}" End_Object_ID="{62F9C3F6-0038-456a-B163-BCC98233B6C5}"/>
+		</Row>
+		<Row>
+			<Column name="Connector_ID" value="3"/>
+			<Column name="Direction" value="Source -&gt; Destination"/>
+			<Column name="Connector_Type" value="Association"/>
+			<Column name="SourceAccess" value="Public"/>
+			<Column name="DestAccess" value="Public"/>
+			<Column name="SourceContainment" value="Unspecified"/>
+			<Column name="SourceIsAggregate" value="0"/>
+			<Column name="SourceIsOrdered" value="0"/>
+			<Column name="DestContainment" value="Unspecified"/>
+			<Column name="DestIsAggregate" value="0"/>
+			<Column name="DestIsOrdered" value="0"/>
+			<Column name="Start_Object_ID" value="6"/>
+			<Column name="End_Object_ID" value="7"/>
+			<Column name="Btm_Mid_Label" value="&lt;&lt;ArchiMate_Assignment&gt;&gt;"/>
+			<Column name="Start_Edge" value="0"/>
+			<Column name="End_Edge" value="0"/>
+			<Column name="PtStartX" value="0"/>
+			<Column name="PtStartY" value="0"/>
+			<Column name="PtEndX" value="0"/>
+			<Column name="PtEndY" value="0"/>
+			<Column name="SeqNo" value="0"/>
+			<Column name="HeadStyle" value="0"/>
+			<Column name="LineStyle" value="0"/>
+			<Column name="RouteStyle" value="3"/>
+			<Column name="IsBold" value="0"/>
+			<Column name="LineColor" value="-1"/>
+			<Column name="Stereotype" value="ArchiMate_Assignment"/>
+			<Column name="VirtualInheritance" value="0"/>
+			<Column name="PDATA5" value="SX=0;SY=0;EX=0;EY=0;"/>
+			<Column name="DiagramID" value="0"/>
+			<Column name="ea_guid" value="{CF6316BE-D7BC-477e-9B68-70D3A6D25028}"/>
+			<Column name="SourceIsNavigable" value="0"/>
+			<Column name="DestIsNavigable" value="0"/>
+			<Column name="IsRoot" value="0"/>
+			<Column name="IsLeaf" value="0"/>
+			<Column name="SourceChangeable" value="none"/>
+			<Column name="DestChangeable" value="none"/>
+			<Column name="SourceTS" value="instance"/>
+			<Column name="DestTS" value="instance"/>
+			<Column name="Target2" value="0"/>
+			<Column name="SourceStyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+			<Column name="DestStyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+			<Extension Start_Object_ID="{2B1846E5-104F-46e5-B5DB-CA09E6B33911}" End_Object_ID="{42CA5A9B-DF6F-452c-802F-76AF6B282A92}"/>
+		</Row>
+		<Row>
+			<Column name="Connector_ID" value="5"/>
+			<Column name="Direction" value="Source -&gt; Destination"/>
+			<Column name="Connector_Type" value="Dependency"/>
+			<Column name="SourceAccess" value="Public"/>
+			<Column name="DestAccess" value="Public"/>
+			<Column name="SourceContainment" value="Unspecified"/>
+			<Column name="SourceIsAggregate" value="0"/>
+			<Column name="SourceIsOrdered" value="0"/>
+			<Column name="DestContainment" value="Unspecified"/>
+			<Column name="DestIsAggregate" value="0"/>
+			<Column name="DestIsOrdered" value="0"/>
+			<Column name="Start_Object_ID" value="10"/>
+			<Column name="End_Object_ID" value="7"/>
+			<Column name="Btm_Mid_Label" value="&lt;&lt;ArchiMate_Realization&gt;&gt;"/>
+			<Column name="Start_Edge" value="0"/>
+			<Column name="End_Edge" value="0"/>
+			<Column name="PtStartX" value="0"/>
+			<Column name="PtStartY" value="0"/>
+			<Column name="PtEndX" value="0"/>
+			<Column name="PtEndY" value="0"/>
+			<Column name="SeqNo" value="0"/>
+			<Column name="HeadStyle" value="0"/>
+			<Column name="LineStyle" value="0"/>
+			<Column name="RouteStyle" value="3"/>
+			<Column name="IsBold" value="0"/>
+			<Column name="LineColor" value="-1"/>
+			<Column name="Stereotype" value="ArchiMate_Realization"/>
+			<Column name="VirtualInheritance" value="0"/>
+			<Column name="PDATA5" value="SX=0;SY=0;EX=0;EY=0;"/>
+			<Column name="DiagramID" value="0"/>
+			<Column name="ea_guid" value="{E350EC3A-D514-4cf6-BA29-EA087451B65A}"/>
+			<Column name="SourceIsNavigable" value="0"/>
+			<Column name="DestIsNavigable" value="1"/>
+			<Column name="IsRoot" value="0"/>
+			<Column name="IsLeaf" value="0"/>
+			<Column name="SourceChangeable" value="none"/>
+			<Column name="DestChangeable" value="none"/>
+			<Column name="SourceTS" value="instance"/>
+			<Column name="DestTS" value="instance"/>
+			<Column name="Target2" value="0"/>
+			<Column name="SourceStyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+			<Column name="DestStyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+			<Extension Start_Object_ID="{62F9C3F6-0038-456a-B163-BCC98233B6C5}" End_Object_ID="{42CA5A9B-DF6F-452c-802F-76AF6B282A92}"/>
+		</Row>
+	</Table>
+	<Table name="t_diagram">
+		<Row>
+			<Column name="Diagram_ID" value="3"/>
+			<Column name="Package_ID" value="5"/>
+			<Column name="ParentID" value="0"/>
+			<Column name="Diagram_Type" value="Logical"/>
+			<Column name="Name" value="View"/>
+			<Column name="Version" value="1.0"/>
+			<Column name="Author" value="DZC68DX"/>
+			<Column name="ShowDetails" value="0"/>
+			<Column name="AttPub" value="1"/>
+			<Column name="AttPri" value="1"/>
+			<Column name="AttPro" value="1"/>
+			<Column name="Orientation" value="L"/>
+			<Column name="cx" value="1614"/>
+			<Column name="cy" value="1134"/>
+			<Column name="Scale" value="100"/>
+			<Column name="CreatedDate" value="2025-08-27 14:37:53"/>
+			<Column name="ModifiedDate" value="2025-08-27 14:40:36"/>
+			<Column name="ShowForeign" value="1"/>
+			<Column name="ShowBorder" value="1"/>
+			<Column name="ShowPackageContents" value="1"/>
+			<Column name="PDATA" value="HideRel=0;ShowTags=0;ShowReqs=0;ShowCons=0;OpParams=1;ShowSN=0;ScalePI=0;PPgs.cx=0;PPgs.cy=0;PSize=8;ShowIcons=1;SuppCN=0;HideProps=0;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideEStereo=0;ShowRec=1;ShowRes=0;ShowShape=1;FormName=;"/>
+			<Column name="Locked" value="0"/>
+			<Column name="ea_guid" value="{E02B497E-ED87-4338-94B5-D52FA2FB5056}"/>
+			<Column name="Swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;"/>
+			<Column name="StyleEx" value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=ArchiMate3::Business;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;SaveTag=8CDA6362;"/>
+			<Extension Package_ID="{3CAC18BA-3D80-4d25-AFE6-4C3DD84F9CF9}"/>
+		</Row>
+	</Table>
+	<Table name="t_diagramobjects">
+		<Row>
+			<Column name="Diagram_ID" value="3"/>
+			<Column name="Object_ID" value="5"/>
+			<Column name="RectTop" value="-102"/>
+			<Column name="RectLeft" value="458"/>
+			<Column name="RectRight" value="548"/>
+			<Column name="RectBottom" value="-172"/>
+			<Column name="Sequence" value="6"/>
+			<Column name="ObjectStyle" value="DUID=E8E97D49;UCRect=1;HideIcon=0;LBL=CX=90:CY=15:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:ALT=0:ROT=0;"/>
+			<Column name="Instance_ID" value="1"/>
+			<Extension Diagram_ID="{E02B497E-ED87-4338-94B5-D52FA2FB5056}" Object_ID="{2A0A7FC3-07EA-4ed4-932A-EDADEE1910E4}"/>
+		</Row>
+		<Row>
+			<Column name="Diagram_ID" value="3"/>
+			<Column name="Object_ID" value="6"/>
+			<Column name="RectTop" value="-220"/>
+			<Column name="RectLeft" value="430"/>
+			<Column name="RectRight" value="520"/>
+			<Column name="RectBottom" value="-290"/>
+			<Column name="Sequence" value="5"/>
+			<Column name="ObjectStyle" value="DUID=485A6924;UCRect=1;HideIcon=0;"/>
+			<Column name="Instance_ID" value="2"/>
+			<Extension Diagram_ID="{E02B497E-ED87-4338-94B5-D52FA2FB5056}" Object_ID="{2B1846E5-104F-46e5-B5DB-CA09E6B33911}"/>
+		</Row>
+		<Row>
+			<Column name="Diagram_ID" value="3"/>
+			<Column name="Object_ID" value="7"/>
+			<Column name="RectTop" value="-380"/>
+			<Column name="RectLeft" value="386"/>
+			<Column name="RectRight" value="491"/>
+			<Column name="RectBottom" value="-450"/>
+			<Column name="Sequence" value="4"/>
+			<Column name="ObjectStyle" value="DUID=153D5967;UCRect=1;HideIcon=0;"/>
+			<Column name="Instance_ID" value="3"/>
+			<Extension Diagram_ID="{E02B497E-ED87-4338-94B5-D52FA2FB5056}" Object_ID="{42CA5A9B-DF6F-452c-802F-76AF6B282A92}"/>
+		</Row>
+		<Row>
+			<Column name="Diagram_ID" value="3"/>
+			<Column name="Object_ID" value="8"/>
+			<Column name="RectTop" value="-380"/>
+			<Column name="RectLeft" value="548"/>
+			<Column name="RectRight" value="653"/>
+			<Column name="RectBottom" value="-450"/>
+			<Column name="Sequence" value="3"/>
+			<Column name="ObjectStyle" value="DUID=88ED8061;UCRect=1;HideIcon=0;"/>
+			<Column name="Instance_ID" value="4"/>
+			<Extension Diagram_ID="{E02B497E-ED87-4338-94B5-D52FA2FB5056}" Object_ID="{70F0B82D-A67A-46d1-8818-07B4FF451C2D}"/>
+		</Row>
+		<Row>
+			<Column name="Diagram_ID" value="3"/>
+			<Column name="Object_ID" value="10"/>
+			<Column name="RectTop" value="-491"/>
+			<Column name="RectLeft" value="391"/>
+			<Column name="RectRight" value="496"/>
+			<Column name="RectBottom" value="-561"/>
+			<Column name="Sequence" value="2"/>
+			<Column name="ObjectStyle" value="DUID=A529009E;UCRect=1;HideIcon=0;"/>
+			<Column name="Instance_ID" value="6"/>
+			<Extension Diagram_ID="{E02B497E-ED87-4338-94B5-D52FA2FB5056}" Object_ID="{62F9C3F6-0038-456a-B163-BCC98233B6C5}"/>
+		</Row>
+		<Row>
+			<Column name="Diagram_ID" value="3"/>
+			<Column name="Object_ID" value="11"/>
+			<Column name="RectTop" value="-600"/>
+			<Column name="RectLeft" value="549"/>
+			<Column name="RectRight" value="639"/>
+			<Column name="RectBottom" value="-670"/>
+			<Column name="Sequence" value="1"/>
+			<Column name="ObjectStyle" value="DUID=D2F76204;UCRect=1;HideIcon=0;"/>
+			<Column name="Instance_ID" value="7"/>
+			<Extension Diagram_ID="{E02B497E-ED87-4338-94B5-D52FA2FB5056}" Object_ID="{1D70CC09-EE21-4cf3-8737-C89D751E8BC6}"/>
+		</Row>
+	</Table>
+	<Table name="t_diagramlinks">
+		<Row>
+			<Column name="DiagramID" value="3"/>
+			<Column name="ConnectorID" value="1"/>
+			<Column name="Geometry" value="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=CX=102:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;"/>
+			<Column name="Style" value="Mode=3;EOID=88ED8061;SOID=153D5967;Color=-1;LWidth=1;"/>
+			<Column name="Hidden" value="0"/>
+			<Column name="Instance_ID" value="1"/>
+			<Extension DiagramID="{E02B497E-ED87-4338-94B5-D52FA2FB5056}" ConnectorID="{25C6B37A-248E-4d6d-B151-9B10F7B438AA}"/>
+		</Row>
+		<Row>
+			<Column name="DiagramID" value="3"/>
+			<Column name="ConnectorID" value="3"/>
+			<Column name="Geometry" value="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=CX=102:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;"/>
+			<Column name="Style" value="Mode=3;EOID=153D5967;SOID=485A6924;Color=-1;LWidth=1;"/>
+			<Column name="Hidden" value="0"/>
+			<Column name="Instance_ID" value="2"/>
+			<Extension DiagramID="{E02B497E-ED87-4338-94B5-D52FA2FB5056}" ConnectorID="{CF6316BE-D7BC-477e-9B68-70D3A6D25028}"/>
+		</Row>
+		<Row>
+			<Column name="DiagramID" value="3"/>
+			<Column name="ConnectorID" value="4"/>
+			<Column name="Geometry" value="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=CX=102:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;"/>
+			<Column name="Style" value="Mode=3;EOID=485A6924;SOID=E8E97D49;Color=-1;LWidth=1;"/>
+			<Column name="Hidden" value="0"/>
+			<Column name="Instance_ID" value="3"/>
+			<Extension DiagramID="{E02B497E-ED87-4338-94B5-D52FA2FB5056}" ConnectorID="{5899474A-48D7-4ed9-A54D-39B096143046}"/>
+		</Row>
+		<Row>
+			<Column name="DiagramID" value="3"/>
+			<Column name="ConnectorID" value="5"/>
+			<Column name="Geometry" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=102:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;"/>
+			<Column name="Style" value="Mode=3;EOID=153D5967;SOID=A529009E;Color=-1;LWidth=1;"/>
+			<Column name="Hidden" value="0"/>
+			<Column name="Instance_ID" value="4"/>
+			<Extension DiagramID="{E02B497E-ED87-4338-94B5-D52FA2FB5056}" ConnectorID="{E350EC3A-D514-4cf6-BA29-EA087451B65A}"/>
+		</Row>
+		<Row>
+			<Column name="DiagramID" value="3"/>
+			<Column name="ConnectorID" value="6"/>
+			<Column name="Geometry" value="SX=0;SY=0;EX=0;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=CX=102:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;"/>
+			<Column name="Style" value="Mode=3;EOID=A529009E;SOID=D2F76204;Color=-1;LWidth=1;"/>
+			<Column name="Hidden" value="0"/>
+			<Column name="Instance_ID" value="5"/>
+			<Extension DiagramID="{E02B497E-ED87-4338-94B5-D52FA2FB5056}" ConnectorID="{5FC36882-6FE7-4e0a-86C0-41A64D358590}"/>
+		</Row>
+	</Table>
+	<Table name="t_xref">
+		<Row>
+			<Column name="XrefID" value="{4B81EE63-F240-48ba-BA24-554D69794EC9}"/>
+			<Column name="Name" value="CustomProperties"/>
+			<Column name="Type" value="element property"/>
+			<Column name="Visibility" value="Public"/>
+			<Column name="Partition" value="0"/>
+			<Column name="Description" value="@PROP=@NAME=_HideUmlLinks@ENDNAME;@TYPE=string@ENDTYPE;@VALU=True@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=_defaultDiagramType@ENDNAME;@TYPE=string@ENDTYPE;@VALU=ArchiMate3::Application@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;"/>
+			<Column name="Client" value="{1D70CC09-EE21-4cf3-8737-C89D751E8BC6}"/>
+			<Column name="Supplier" value="&lt;none&gt;"/>
+		</Row>
+		<Row>
+			<Column name="XrefID" value="{EAEB0D27-EC87-4f05-834F-C0A26E609616}"/>
+			<Column name="Name" value="Stereotypes"/>
+			<Column name="Type" value="element property"/>
+			<Column name="Visibility" value="Public"/>
+			<Column name="Partition" value="0"/>
+			<Column name="Description" value="@STEREO;Name=ArchiMate_ApplicationComponent;FQName=ArchiMate3::ArchiMate_ApplicationComponent;@ENDSTEREO;"/>
+			<Column name="Client" value="{1D70CC09-EE21-4cf3-8737-C89D751E8BC6}"/>
+			<Column name="Supplier" value="&lt;none&gt;"/>
+		</Row>
+		<Row>
+			<Column name="XrefID" value="{61238809-859B-47a1-AD6D-C5327BFEB56A}"/>
+			<Column name="Name" value="Stereotypes"/>
+			<Column name="Type" value="connector property"/>
+			<Column name="Visibility" value="Public"/>
+			<Column name="Partition" value="0"/>
+			<Column name="Description" value="@STEREO;Name=ArchiMate_Flow;FQName=ArchiMate3::ArchiMate_Flow;@ENDSTEREO;"/>
+			<Column name="Client" value="{25C6B37A-248E-4d6d-B151-9B10F7B438AA}"/>
+			<Column name="Supplier" value="&lt;none&gt;"/>
+		</Row>
+		<Row>
+			<Column name="XrefID" value="{F3B79ECF-11F7-4853-8AE4-E00887BBF9AE}"/>
+			<Column name="Name" value="CustomProperties"/>
+			<Column name="Type" value="element property"/>
+			<Column name="Visibility" value="Public"/>
+			<Column name="Partition" value="0"/>
+			<Column name="Description" value="@PROP=@NAME=_HideUmlLinks@ENDNAME;@TYPE=string@ENDTYPE;@VALU=True@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=_defaultDiagramType@ENDNAME;@TYPE=string@ENDTYPE;@VALU=ArchiMate3::Business@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;"/>
+			<Column name="Client" value="{2A0A7FC3-07EA-4ed4-932A-EDADEE1910E4}"/>
+			<Column name="Supplier" value="&lt;none&gt;"/>
+		</Row>
+		<Row>
+			<Column name="XrefID" value="{44905E3A-9ED6-45fd-B68D-3A480B7E793D}"/>
+			<Column name="Name" value="Stereotypes"/>
+			<Column name="Type" value="element property"/>
+			<Column name="Visibility" value="Public"/>
+			<Column name="Partition" value="0"/>
+			<Column name="Description" value="@STEREO;Name=ArchiMate_BusinessActor;FQName=ArchiMate3::ArchiMate_BusinessActor;@ENDSTEREO;"/>
+			<Column name="Client" value="{2A0A7FC3-07EA-4ed4-932A-EDADEE1910E4}"/>
+			<Column name="Supplier" value="&lt;none&gt;"/>
+		</Row>
+		<Row>
+			<Column name="XrefID" value="{7F602A6E-F927-4d0b-98F8-6075BCF9FC76}"/>
+			<Column name="Name" value="Stereotypes"/>
+			<Column name="Type" value="connector property"/>
+			<Column name="Visibility" value="Public"/>
+			<Column name="Partition" value="0"/>
+			<Column name="Description" value="@STEREO;Name=ArchiMate_Flow;FQName=ArchiMate3::ArchiMate_Flow;@ENDSTEREO;"/>
+			<Column name="Client" value="{2ACDA241-E5FE-41fc-B54F-CF24F7865BBD}"/>
+			<Column name="Supplier" value="&lt;none&gt;"/>
+		</Row>
+		<Row>
+			<Column name="XrefID" value="{990A70BE-9DDC-4c86-9302-675A1A05516D}"/>
+			<Column name="Name" value="CustomProperties"/>
+			<Column name="Type" value="element property"/>
+			<Column name="Visibility" value="Public"/>
+			<Column name="Partition" value="0"/>
+			<Column name="Description" value="@PROP=@NAME=_HideUmlLinks@ENDNAME;@TYPE=string@ENDTYPE;@VALU=True@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=_defaultDiagramType@ENDNAME;@TYPE=string@ENDTYPE;@VALU=ArchiMate3::Business@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;"/>
+			<Column name="Client" value="{2B1846E5-104F-46e5-B5DB-CA09E6B33911}"/>
+			<Column name="Supplier" value="&lt;none&gt;"/>
+		</Row>
+		<Row>
+			<Column name="XrefID" value="{0ABE9634-57DC-4239-A566-3C07663C2531}"/>
+			<Column name="Name" value="Stereotypes"/>
+			<Column name="Type" value="element property"/>
+			<Column name="Visibility" value="Public"/>
+			<Column name="Partition" value="0"/>
+			<Column name="Description" value="@STEREO;Name=ArchiMate_BusinessRole;FQName=ArchiMate3::ArchiMate_BusinessRole;@ENDSTEREO;"/>
+			<Column name="Client" value="{2B1846E5-104F-46e5-B5DB-CA09E6B33911}"/>
+			<Column name="Supplier" value="&lt;none&gt;"/>
+		</Row>
+		<Row>
+			<Column name="XrefID" value="{009D9729-15BB-419e-9655-91D9162C71B0}"/>
+			<Column name="Name" value="CustomProperties"/>
+			<Column name="Type" value="element property"/>
+			<Column name="Visibility" value="Public"/>
+			<Column name="Partition" value="0"/>
+			<Column name="Description" value="@PROP=@NAME=_HideUmlLinks@ENDNAME;@TYPE=string@ENDTYPE;@VALU=True@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=_defaultDiagramType@ENDNAME;@TYPE=string@ENDTYPE;@VALU=ArchiMate3::Business@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;"/>
+			<Column name="Client" value="{34835314-9249-41e5-863E-737E65A9E566}"/>
+			<Column name="Supplier" value="&lt;none&gt;"/>
+		</Row>
+		<Row>
+			<Column name="XrefID" value="{B8732624-3D95-4133-883F-102B2687881F}"/>
+			<Column name="Name" value="Stereotypes"/>
+			<Column name="Type" value="element property"/>
+			<Column name="Visibility" value="Public"/>
+			<Column name="Partition" value="0"/>
+			<Column name="Description" value="@STEREO;Name=ArchiMate_BusinessEvent;FQName=ArchiMate3::ArchiMate_BusinessEvent;@ENDSTEREO;"/>
+			<Column name="Client" value="{34835314-9249-41e5-863E-737E65A9E566}"/>
+			<Column name="Supplier" value="&lt;none&gt;"/>
+		</Row>
+		<Row>
+			<Column name="XrefID" value="{74B6608F-2C23-474c-A639-D3FE3FF57E08}"/>
+			<Column name="Name" value="CustomProperties"/>
+			<Column name="Type" value="element property"/>
+			<Column name="Visibility" value="Public"/>
+			<Column name="Partition" value="0"/>
+			<Column name="Description" value="@PROP=@NAME=_HideUmlLinks@ENDNAME;@TYPE=string@ENDTYPE;@VALU=True@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=_defaultDiagramType@ENDNAME;@TYPE=string@ENDTYPE;@VALU=ArchiMate3::Business@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;"/>
+			<Column name="Client" value="{42CA5A9B-DF6F-452c-802F-76AF6B282A92}"/>
+			<Column name="Supplier" value="&lt;none&gt;"/>
+		</Row>
+		<Row>
+			<Column name="XrefID" value="{3F350DE0-D348-444a-A589-023F27AF7B45}"/>
+			<Column name="Name" value="Stereotypes"/>
+			<Column name="Type" value="element property"/>
+			<Column name="Visibility" value="Public"/>
+			<Column name="Partition" value="0"/>
+			<Column name="Description" value="@STEREO;Name=ArchiMate_BusinessProcess;FQName=ArchiMate3::ArchiMate_BusinessProcess;@ENDSTEREO;"/>
+			<Column name="Client" value="{42CA5A9B-DF6F-452c-802F-76AF6B282A92}"/>
+			<Column name="Supplier" value="&lt;none&gt;"/>
+		</Row>
+		<Row>
+			<Column name="XrefID" value="{7FF7DD5E-7CE1-4756-B9CF-44E8197A1D0E}"/>
+			<Column name="Name" value="Stereotypes"/>
+			<Column name="Type" value="connector property"/>
+			<Column name="Visibility" value="Public"/>
+			<Column name="Partition" value="0"/>
+			<Column name="Description" value="@STEREO;Name=ArchiMate_Assignment;FQName=ArchiMate3::ArchiMate_Assignment;@ENDSTEREO;"/>
+			<Column name="Client" value="{5899474A-48D7-4ed9-A54D-39B096143046}"/>
+			<Column name="Supplier" value="&lt;none&gt;"/>
+		</Row>
+		<Row>
+			<Column name="XrefID" value="{EEA9E66D-8B17-41dd-98CB-B2882527224C}"/>
+			<Column name="Name" value="Stereotypes"/>
+			<Column name="Type" value="connector property"/>
+			<Column name="Visibility" value="Public"/>
+			<Column name="Partition" value="0"/>
+			<Column name="Description" value="@STEREO;Name=ArchiMate_Serving;FQName=ArchiMate3::ArchiMate_Serving;@ENDSTEREO;"/>
+			<Column name="Client" value="{5FC36882-6FE7-4e0a-86C0-41A64D358590}"/>
+			<Column name="Supplier" value="&lt;none&gt;"/>
+		</Row>
+		<Row>
+			<Column name="XrefID" value="{02FA0620-586F-491d-8FD8-F30068BCF4E7}"/>
+			<Column name="Name" value="CustomProperties"/>
+			<Column name="Type" value="element property"/>
+			<Column name="Visibility" value="Public"/>
+			<Column name="Partition" value="0"/>
+			<Column name="Description" value="@PROP=@NAME=_HideUmlLinks@ENDNAME;@TYPE=string@ENDTYPE;@VALU=True@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=_defaultDiagramType@ENDNAME;@TYPE=string@ENDTYPE;@VALU=ArchiMate3::Application@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;"/>
+			<Column name="Client" value="{62F9C3F6-0038-456a-B163-BCC98233B6C5}"/>
+			<Column name="Supplier" value="&lt;none&gt;"/>
+		</Row>
+		<Row>
+			<Column name="XrefID" value="{C74E59F3-A505-4f3c-B026-04C90F1CD44B}"/>
+			<Column name="Name" value="Stereotypes"/>
+			<Column name="Type" value="element property"/>
+			<Column name="Visibility" value="Public"/>
+			<Column name="Partition" value="0"/>
+			<Column name="Description" value="@STEREO;Name=ArchiMate_ApplicationFunction;FQName=ArchiMate3::ArchiMate_ApplicationFunction;@ENDSTEREO;"/>
+			<Column name="Client" value="{62F9C3F6-0038-456a-B163-BCC98233B6C5}"/>
+			<Column name="Supplier" value="&lt;none&gt;"/>
+		</Row>
+		<Row>
+			<Column name="XrefID" value="{4A63A0DD-E558-4c05-8999-0140CF6A2887}"/>
+			<Column name="Name" value="CustomProperties"/>
+			<Column name="Type" value="element property"/>
+			<Column name="Visibility" value="Public"/>
+			<Column name="Partition" value="0"/>
+			<Column name="Description" value="@PROP=@NAME=_HideUmlLinks@ENDNAME;@TYPE=string@ENDTYPE;@VALU=True@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=_defaultDiagramType@ENDNAME;@TYPE=string@ENDTYPE;@VALU=ArchiMate3::Business@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;"/>
+			<Column name="Client" value="{70F0B82D-A67A-46d1-8818-07B4FF451C2D}"/>
+			<Column name="Supplier" value="&lt;none&gt;"/>
+		</Row>
+		<Row>
+			<Column name="XrefID" value="{6F3E85B6-0960-4acc-9F5C-E1D3DBBA8B87}"/>
+			<Column name="Name" value="Stereotypes"/>
+			<Column name="Type" value="element property"/>
+			<Column name="Visibility" value="Public"/>
+			<Column name="Partition" value="0"/>
+			<Column name="Description" value="@STEREO;Name=ArchiMate_BusinessProcess;FQName=ArchiMate3::ArchiMate_BusinessProcess;@ENDSTEREO;"/>
+			<Column name="Client" value="{70F0B82D-A67A-46d1-8818-07B4FF451C2D}"/>
+			<Column name="Supplier" value="&lt;none&gt;"/>
+		</Row>
+		<Row>
+			<Column name="XrefID" value="{42D64F38-0686-41e7-8209-582C095C0788}"/>
+			<Column name="Name" value="Stereotypes"/>
+			<Column name="Type" value="connector property"/>
+			<Column name="Visibility" value="Public"/>
+			<Column name="Partition" value="0"/>
+			<Column name="Description" value="@STEREO;Name=ArchiMate_Assignment;FQName=ArchiMate3::ArchiMate_Assignment;@ENDSTEREO;"/>
+			<Column name="Client" value="{CF6316BE-D7BC-477e-9B68-70D3A6D25028}"/>
+			<Column name="Supplier" value="&lt;none&gt;"/>
+		</Row>
+		<Row>
+			<Column name="XrefID" value="{DA769ED9-5ABD-4b03-BCF3-0D896CA5CAAE}"/>
+			<Column name="Name" value="CustomProperties"/>
+			<Column name="Type" value="diagram properties"/>
+			<Column name="Visibility" value="Public"/>
+			<Column name="Partition" value="0"/>
+			<Column name="Description" value="DGS=On=0:CNT=8:W=120:H=40:SG=0:SGH=0:AEB=0:;AR=0;DCL=0;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-13,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-13,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-13,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-13,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-13,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-13,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-13,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;Swimlanes=locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-13,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;"/>
+			<Column name="Client" value="{E02B497E-ED87-4338-94B5-D52FA2FB5056}"/>
+		</Row>
+		<Row>
+			<Column name="XrefID" value="{04616102-3E43-432e-940D-825B8082D0EC}"/>
+			<Column name="Name" value="Stereotypes"/>
+			<Column name="Type" value="connector property"/>
+			<Column name="Visibility" value="Public"/>
+			<Column name="Partition" value="0"/>
+			<Column name="Description" value="@STEREO;Name=ArchiMate_Realization;FQName=ArchiMate3::ArchiMate_Realization;@ENDSTEREO;"/>
+			<Column name="Client" value="{E350EC3A-D514-4cf6-BA29-EA087451B65A}"/>
+			<Column name="Supplier" value="&lt;none&gt;"/>
+		</Row>
+	</Table>
+</Package>
